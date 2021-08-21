@@ -94,7 +94,7 @@
   *** Callback registration ***
   =============================================
 
-  The compilation define ER_CALLBACKS when set to 1
+  The compilation define USE_HAL_FDCAN_REGISTER_CALLBACKS when set to 1
   allows the user to configure dynamically the driver callbacks.
   Use Function @ref HAL_FDCAN_RegisterCallback() or HAL_FDCAN_RegisterXXXCallback()
   to register an interrupt callback.
